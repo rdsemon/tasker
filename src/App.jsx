@@ -1,8 +1,15 @@
+import Footer from "./Footer";
+import Header from "./Header";
+import HeroSection from "./HeroSection";
+import TaskBoard from "./task/TaskBoard";
 function App() {
   return (
-    <div>
-      <h1>Hello react</h1>
-    </div>
+    <>
+      <Header />
+      <HeroSection />
+      <TaskBoard />
+      <Footer />
+    </>
   );
 }
 
